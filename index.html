@@ -5,12 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+    <script src="https://lit.fontawesome.com/b3f89f3272.js" crossorigin="anonymous"
+    ></script>
 
 </head>
 <body>
@@ -32,6 +37,7 @@
         </div>
     </section>
 
+    <!-- SOBRE MIM -->
     <div class="section-container">
         <div class="section-content">
             <h2 class="section-title">Sobre mim</h2>
@@ -41,8 +47,9 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quas aliquam eaque doloremque labore hic distinctio voluptatem nobis numquam quae illum explicabo accusantium sit id blanditiis atque doloribus, quisquam laborum quaerat dolorum expedita ipsum facere nisi. Dolores sunt, harum obcaecati aperiam rerum, vero dicta laborum optio ad ducimus quae consequatur?</p>
             </div>
         </div>
-    </div>
+    </div><!-- section-container -->
 
+    <!-- HABILIDADES -->
     <div class="section-container">
         <div class="section-content">
             <h2 class="section-title">Habilidades</h2>
@@ -79,6 +86,120 @@
                 </div>
             </div>
         </div>
+    </div><!-- section-container -->
+
+    <!-- PROJETOS -->
+    <div class="section-container">
+        <div class="section-content">
+            <h2 class="section-title">Projetos</h2>
+
+            <div class="projects-content">
+                <div class="project-item">
+                    <!-- IMAGEM -->
+                   <div class="project-item-image project-item-1"></div>
+                    
+                    <!-- TEXTO -->
+                     <div class="project-text">
+                        <h3>Cardápio Online</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ratione doloremque distinctio sint aliquam. Eaque explicabo voluptatum aspernatur, est sint cupiditate. Veniam, necessitatibus numquam debitis ex quidem distinctio ipsum laudantium!
+                        </p>
+                     </div>
+                </div>
+
+                <div class="project-item">
+                    <!-- IMAGEM -->
+                    <div class="project-item-image project-item-2"></div>
+                    
+                    <!-- TEXTO -->
+                     <div class="project-text">
+                        <h3>Sistema de Reservas</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ratione doloremque distinctio sint aliquam. Eaque explicabo voluptatum aspernatur, est sint cupiditate. Veniam, necessitatibus numquam debitis ex quidem distinctio ipsum laudantium!
+                        </p>
+                     </div>
+                </div>
+
+                <div class="project-item">
+                    <!-- IMAGEM -->
+                    <div class="project-item-image project-item-3"></div>
+                    
+                    <!-- TEXTO -->
+                     <div class="project-text">
+                        <h3>Sistema ponto de vendas</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ratione doloremque distinctio sint aliquam. Eaque explicabo voluptatum aspernatur, est sint cupiditate. Veniam, necessitatibus numquam debitis ex quidem distinctio ipsum laudantium!
+                        </p>
+                     </div>
+                </div>
+
+                <div class="project-item">
+                    <!-- IMAGEM -->
+                    <div class="project-item-image project-item-4"></div>
+                    
+                    <!-- TEXTO -->
+                     <div class="project-text">
+                        <h3>Sistema Imobiliário</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ratione doloremque distinctio sint aliquam. Eaque explicabo voluptatum aspernatur, est sint cupiditate. Veniam, necessitatibus numquam debitis ex quidem distinctio ipsum laudantium!
+                        </p>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-container">
+        <div class="section-content">
+            <h2 class="section-title">Entre em contato</h2>
+
+            <form class="contact-form">
+
+                <input 
+                    type="text" 
+                    name="fullname" 
+                    id="fullname" 
+                    placeholder="Seu nome"
+                    class="form-input"
+                />
+
+                <input 
+                    type="email" 
+                    name="email" 
+                    id="email" 
+                    placeholder="Seu e-mail"
+                    class="form-input"
+                />
+
+                <textarea 
+                    name="message" 
+                    id="message" 
+                    rows="5" 
+                    placeholder="Sua menssagem"
+                    class="form-input"
+                ></textarea>
+
+                <input type="submit" value="Enviar" class="form-button">
+            </form>
+        </div>
+    </div>
+
+    <div class="footer-container">
+        <div class="social-items">
+            <a href="https://www.linkedin.com/in/caio-filardis1891/" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            
+            <a href="https://wa.me/5521995291891" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+
+            <a href="https://github.com/CaioFilardis" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+
+            <a href="https://www.instagram.com/caiofilardis" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+
+        <div><p>&copy; 2024</p></div>
     </div>
 </body>
 </html>
