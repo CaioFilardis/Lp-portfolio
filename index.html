@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio</title>
+    <title>Caio Filardis - Desenvolvedor de sistemas</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="./src/css/reset.css">
@@ -23,10 +23,10 @@
     <nav class="navbar-container">
         <ul>
             <li class="#">Inicio</li>
-            <li class="#">Sobre</li>
-            <li class="#">Habilidade</li>
-            <li class="#">Projetos</li>
-            <li class="#">Contato</li>
+            <a href="#Sobre"><li class="#">Sobre</li></a>
+            <a href="#Habilidades"><li class="#">Habilidade</li></a>
+            <a href="#Projetos"><li class="#">Projetos</li></a>
+            <a href="#Contato"><li class="#">Contato</li></a>
         </ul>
     </nav>
 
@@ -39,7 +39,7 @@
     </section>
 
     <!-- SOBRE MIM -->
-    <div class="section-container">
+    <div class="section-container" id="Sobre">
         <div class="section-content">
             <h2 class="section-title">Sobre mim</h2>
 
@@ -51,7 +51,7 @@
     </div><!-- section-container -->
 
     <!-- HABILIDADES -->
-    <div class="section-container">
+    <div class="section-container" id="Habilidades">
         <div class="section-content">
             <h2 class="section-title">Habilidades</h2>
 
@@ -90,7 +90,7 @@
     </div><!-- section-container -->
 
     <!-- PROJETOS -->
-    <div class="section-container">
+    <div class="section-container" id="Projetos">
         <div class="section-content">
             <h2 class="section-title">Projetos</h2>
 
@@ -146,11 +146,12 @@
         </div>
     </div>
 
-    <div class="section-container">
+    <!-- Formulário -->
+    <div class="section-container" id="Contato">
         <div class="section-content">
             <h2 class="section-title">Entre em contato</h2>
 
-            <form class="contact-form">
+            <form method="POST" class="contact-form">
 
                 <input 
                     type="text" 
@@ -176,11 +177,12 @@
                     class="form-input"
                 ></textarea>
 
-                <input type="submit" value="Enviar" class="form-button">
+              <input type="submit" value="Enviar" class="form-button">
             </form>
         </div>
     </div>
 
+    <!-- Footer -->
     <div class="footer-container">
         <div class="social-items">
             <a href="https://www.linkedin.com/in/caio-filardis1891/" target="_blank">
@@ -202,5 +204,7 @@
 
         <div><p>&copy; 2024</p></div>
     </div>
+
+    <script src="./src/js/app.js"></script>
 </body>
 </html>
