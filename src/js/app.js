@@ -1,11 +1,19 @@
-document.getElementById('contact-form').addEventListener('submit', function(event) {
-    event.preventDefault();
+var whats = {};
+var celularEmpresa = '5521995291891';
 
-    const name = document.getElementById('#fullname').value;
-    const message = document.getElementById('#message').value;
+whats.eventos = {
 
-    const encode = encodeURIComponent(message);
+    init: () => {
+        whats.menssagem.carregarBotaoWhatsapp();
+    }
+}
 
-    const url = `https://wa.me/5521995291891?text=${encode}`;
-    window.open(url, '_blank');
-});
+whats.menssagem = {
+    carregarBotaoWhatsapp: () => {
+
+        let url = `https://wa.me/${celularEmpresa}`;
+
+        $("#enviar").attr('href', url);
+       
+    }
+}
