@@ -1,32 +1,41 @@
-# Lp-portfolio
+# Portfólio Landing Page
 
-Landing Page Portfolio Project by Caio Filardis
+Projeto de Landing Page para Portfólio criado por Caio Filardis
 
-## Description
-This repository contains the code for a landing page portfolio project. It includes various styles and scripts written in SCSS, CSS, JavaScript, and HTML. The project aims to showcase a modern and responsive portfolio design.
+## Descrição
+Este repositório contém o código para um projeto de landing page de portfólio, desenvolvido para apresentar habilidades, projetos e informações de contato de forma moderna e responsiva. A página foi projetada com foco em uma estética minimalista e funcional, utilizando SCSS, Less, JavaScript e HTML.
 
-## Features
-- Responsive design for various screen sizes
-- Styled using SCSS and Less for efficient and scalable CSS
-- Interactive elements with JavaScript
-- Minimal and clean HTML structure
+## Funcionalidades
+- Design responsivo que se adapta a diferentes dispositivos e tamanhos de tela
+- Estilização eficiente com SCSS e Less, facilitando manutenção e escalabilidade
+- Elementos interativos e animações com JavaScript
+- Estrutura HTML limpa e semântica
 
-## Tech Stack
-- **HTML**: Structure of the landing page.
-- **SCSS/CSS/Less**: Styling for a responsive and visually appealing design.
-- **JavaScript**: Adds interactivity and dynamic elements to the page.
+## Tecnologias Utilizadas
+- **HTML**: Estrutura da página.
+- **SCSS / Less / CSS**: Estilos para um design visualmente atraente e responsivo.
+- **JavaScript**: Adiciona interatividade e dinamismo aos elementos da página.
 
-## Getting Started
+## Como Iniciar
 
-### Prerequisites
-- Make sure to have a code editor (like VS Code) and Git installed on your machine.
+### Pré-requisitos
+- Ter um editor de código (como o VS Code) e Git instalados em sua máquina.
 
-### Installation
-1. Clone the repository:
+### Instalação
+1. Clone o repositório:
    ```bash
    git clone https://github.com/CaioFilardis/Lp-portfolio.git
-
+   
 2. Navegue para diretório: 
   cd Lp-portfolio
 
 3. Abra o  index.html
+
+
+### Estrutura de Pastas
+index.html: Arquivo HTML principal da landing page.
+src: Contém todos os arquivos de estilo (SCSS, CSS, Less) e JavaScript.
+
+### Contribuição
+Contribuições são bem-vindas! Sinta-se à vontade para fazer um fork deste repositório e enviar pull requests com melhorias e sugestões.
+
